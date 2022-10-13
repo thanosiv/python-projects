@@ -10,14 +10,14 @@ path = config.path
 class Users(Resource):
     def get(self):
         data = pd.read_csv(path + 'users.csv')
-        data = data.to_dict()
+        data = data.to_dict(orient='records') # orient='records' required here to format as individual rows
         return {'data':data}, 200
     pass
 
 class Locations(Resource):
     def get(self):
         data = pd.read_csv(path + 'locations.csv')
-        data = data.to_dict()
+        data = data.to_dict(orient='records') # orient='records' required here to format as individual rows
         return {'data':data}, 200
     pass
 
@@ -25,4 +25,7 @@ api.add_resource(Users, '/users')
 api.add_resource(Locations, '/locations')
 
 if __name__ == '__main__':
-    app.run()  # run our Flask app
+    app.run()  # run Flask app
+    
+# JSON.parse($("pre").textContent)['data'][0]
+# format to get individual records once app is running
