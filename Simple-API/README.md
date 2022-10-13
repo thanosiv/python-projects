@@ -1,0 +1,18 @@
+# Simple-API
+ 
+A simple python API using Flask and flask-restful, which populates the data from csv files in the directory.
+
+Run the app by using
+```
+python api.py
+```
+
+Once the server has started, you can access the API via Postman or web browser by using either of the following URLs:
+* http://127.0.0.1:5000/users
+* http://127.0.0.1:5000/locations
+
+### Postman Results
+![alt-text](https://github.com/thanosiv/Simple-API/img/api-postman.png "Postman Results")
+
+### Web Browser Results
+![alt-text](https://github.com/thanosiv/Simple-API/img/api-webBrowser.png "Browser Results")
