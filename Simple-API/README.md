@@ -2,6 +2,8 @@
  
 A simple python API using Flask and flask-restful, which populates the data from csv files in the directory.
 
+*__An additional config.py file is utilized that is not present in this project, used to store the directory housing the CSV files, in a variable called 'path'__*
+
 Run the app by using
 ```
 python api.py
