@@ -12,7 +12,7 @@ Once the server has started, you can access the API via Postman or web browser b
 * http://127.0.0.1:5000/locations
 
 ### Postman Results
-![alt-text](https://github.com/thanosiv/Simple-API/img/api-postman.png "Postman Results")
+![alt-text](https://github.com/thanosiv/python-projects/blob/main/Simple-API/img/api_postman.png "Postman Results")
 
 ### Web Browser Results
-![alt-text](https://github.com/thanosiv/Simple-API/img/api-webBrowser.png "Browser Results")
+![alt-text](https://github.com/thanosiv/python-projects/blob/main/Simple-API/img/api-webBrowser.png "Browser Results")
