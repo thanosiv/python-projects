@@ -15,4 +15,4 @@ Once the server has started, you can access the API via Postman or web browser b
 ![alt-text](https://github.com/thanosiv/python-projects/blob/main/Simple-API/img/api_postman.png "Postman Results")
 
 ### Web Browser Results
-![alt-text](https://github.com/thanosiv/python-projects/blob/main/Simple-API/img/api-webBrowser.png "Browser Results")
+![alt-text](https://github.com/thanosiv/python-projects/blob/main/Simple-API/img/api_webBrowser.png "Browser Results")
